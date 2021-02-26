@@ -1,38 +1,266 @@
-.App {
-  text-align: center;
+*
+{
+    font-size: 50px;
+
+    padding: 15px;
+
+    color: #fff;
+    background-color: #282c34;
+}
+/* Display */
+.container
+{
+    width: 470px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: -17px;
+
+    border: solid #61dafb;
+    border-radius: 15px;
+    background-color: #282c34;
+}
+.num
+{
+    font-size: 60px;
+    font-weight: bold;
+
+    height: 100px;
+
+    cursor: text;
+    text-align: center;
+
+    color: #61dafb;
+    border: solid #61dafb;
+    border-radius: 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.num5
+{
+    font-size: 70px;
+    font-weight: bold;
+
+    height: 100px;
+
+    cursor: text;
+    text-align: center;
+
+    color: red;
+    border: solid #61dafb;
+    border-radius: 15px;
+}
+.numText
+{
+    font-size: 30px;
+    font-weight: bold;
+
+    height: 100px;
+
+    text-align: center;
+
+    color: red;
+    border: solid #61dafb;
+    border-radius: 15px;
+}
+.counterText
+{
+    font-size: 30px;
+    font-weight: bold;
+
+    height: 100px;
+
+    text-align: center;
+
+    color: #61dafb;
+    border: solid #61dafb;
+    border-radius: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/*Buttons*/
+.buttons
+{
+    margin-top: 30px;
+
+    border: solid #61dafb;
+    border-radius: 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.button_inc
+{
+    font-weight: bold;
+
+    margin-left: 50px;
+
+    cursor: pointer;
+
+    color: #282c34;
+    border-radius: 15px;
+    outline: none;
+    background: #61dafb;
+}
+.button_disabled_inc
+{
+    font-weight: bold;
+
+    margin-left: 50px;
+
+    cursor: not-allowed;
+
+    opacity: .5;
+    color: #282c34;
+    border-radius: 15px;
+    outline: none;
+    background: #61dafb;
 }
 
-.App-link {
-  color: #61dafb;
+.button_reset
+{
+    font-weight: bold;
+
+    margin-left: 90px;
+
+    cursor: pointer;
+
+    color: #282c34;
+    border-radius: 15px;
+    outline: none;
+    background: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button_reset_disabled
+{
+    font-weight: bold;
+
+    margin-left: 90px;
+
+    cursor: not-allowed;
+
+    opacity: .5;
+    color: #282c34;
+    border-radius: 15px;
+    outline: none;
+    background: #61dafb;
+}
+
+.settings_set_btn
+{
+    font-weight: bold;
+
+    height: 70px;
+    margin-left: 40%;
+
+    cursor: pointer;
+    text-align: center;
+
+    color: #282c34;
+    border-radius: 15px;
+    outline: none;
+    background: #61dafb;
+}
+.settings_set_btn_disabled
+{
+    font-weight: bold;
+
+    height: 70px;
+    margin-left: 40%;
+
+    cursor: not-allowed;
+    text-align: center;
+
+    opacity: .5;
+    color: #282c34;
+    border-radius: 15px;
+    outline: none;
+    background: #61dafb;
+}
+
+/*Settings window*/
+.settings
+{
+    width: 470px;
+    height: 300px;
+
+    border: solid #61dafb;
+    border-radius: 15px;
+    background-color: #282c34;
+}
+
+.settings_input_container
+{
+    width: 440px;
+
+    border: solid #61dafb;
+    border-radius: 15px;
+}
+
+.settings_input
+{
+    font-size: 15px;
+    font-weight: bold;
+
+    float: right;
+
+    width: 150px;
+    height: 5px;
+    margin-top: 10px;
+
+    text-align: center;
+
+    color: black;
+    border: solid #61dafb;
+    border-radius: 5px;
+    outline: none;
+    background-color: #fff;
+}
+
+.settings_input_equal
+{
+    font-size: 15px;
+    font-weight: bold;
+
+    float: right;
+
+    width: 150px;
+    height: 5px;
+    margin-top: 10px;
+
+    text-align: center;
+
+    color: black;
+    border: 3px solid red;
+    border-radius: 5px;
+    outline: none;
+    background-color: #fd9797;
+}
+
+.settings_span
+{
+    font-size: 30px;
+    font-weight: bold;
+
+    color: #61dafb;
+}
+
+.settings_set
+{
+    width: 440px;
+    height: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    border: solid #61dafb;
+    border-radius: 15px;
+}
+
+.settings_text
+{
+    font-size: 30px;
+    font-weight: bold;
+
+    height: 100px;
+
+    text-align: center;
+
+    color: #61dafb;
+    border: solid #61dafb;
+    border-radius: 15px;
 }
